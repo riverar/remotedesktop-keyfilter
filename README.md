@@ -34,7 +34,7 @@ The hook intercepts <kbd>CTRL</kbd> + <kbd>WIN</kbd> + <kbd>LEFT</kbd> / <kbd>RI
   SRV*X:\Path\To\Symbol\Cache*http://msdl.microsoft.com/download/symbols
   ```
 
-  Alternatively you can [download] symbols (https://msdn.microsoft.com/en-us/windows/hardware/gg463028) for mstscax.dll (i.e. mstscax.pdb) and place in \System32.
+  Alternatively you can [download](https://msdn.microsoft.com/en-us/windows/hardware/gg463028) symbols for mstscax.dll (i.e. mstscax.pdb) and place in \System32.
 
 ## Usage
 
