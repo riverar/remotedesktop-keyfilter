@@ -1,6 +1,7 @@
 # remotedesktop-keyfilter
 
 ## What is it?
+
 A [Frida](http://www.frida.re) hook that intercepts defined keys within a remote desktop context and sends them to the operating system.
 
 The hook intercepts <kbd>CTRL</kbd> + <kbd>WIN</kbd> + <kbd>LEFT</kbd> / <kbd>RIGHT</kbd> to enable virtual desktop switching while using full-screen remote desktop windows configured to send remote keys to the remote computer.
@@ -9,7 +10,7 @@ The hook intercepts <kbd>CTRL</kbd> + <kbd>WIN</kbd> + <kbd>LEFT</kbd> / <kbd>RI
 
 * Python 3.4
 * Frida 4.4 or higher
-* Windows 10 RTM (or higher, if you can get symbols)
+* Windows 10 RTM or higher
 
 ## Install
 
@@ -28,13 +29,6 @@ The hook intercepts <kbd>CTRL</kbd> + <kbd>WIN</kbd> + <kbd>LEFT</kbd> / <kbd>RI
   ```
   easy_install frida
   ```
-
-6. Set _NT_SYMBOL_PATH appropriately ([more info](https://msdn.microsoft.com/en-us/library/windows/hardware/ff558829)):
-  ```
-  SRV*X:\Path\To\Symbol\Cache*http://msdl.microsoft.com/download/symbols
-  ```
-
-  Alternatively you can [download](https://msdn.microsoft.com/en-us/windows/hardware/gg463028) symbols for mstscax.dll (i.e. mstscax.pdb) and place in \System32.
 
 ## Usage
 
